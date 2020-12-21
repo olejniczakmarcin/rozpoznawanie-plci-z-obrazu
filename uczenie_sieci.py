@@ -86,4 +86,3 @@ genderModel.compile(optimizer=rmsOptimizer,loss=keras.losses.binary_crossentropy
 genderModel.fit(BazaImg, BazaAns, epochs=100, batch_size=10, shuffle=True)
 
 genderModel.save('siec.h5')
-#Przetestować / użyć sieci
